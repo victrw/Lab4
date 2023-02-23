@@ -9,19 +9,11 @@ body {
 }
 
 
-/* .montserratheader {
-    font-family: 'Montserrat', sans-serif;
-} */
-
 h1 {
     color: #F4B952;
     font-family: 'Montserrat', sans-serif;
 }
 
-/* .navcentrecolor {
-    background-color: #A1CFF2;
-    text-align: center;
-} */
 
 /* *********MAIN PAGE NAV MENU FLEXBOX*********** */
 
@@ -71,4 +63,7 @@ h1 {
 .copyright-box p{
     text-align: center;
     background-color: #2A2B2D;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
