@@ -9,12 +9,13 @@ body {
 }
 
 
-.montserratheader {
+/* .montserratheader {
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 h1 {
     color: #F4B952;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* .navcentrecolor {
