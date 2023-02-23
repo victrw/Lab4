@@ -1,5 +1,6 @@
 * {
     background-color: #1A293E;
+    scroll-behavior: smooth;
     
 }
 
@@ -12,15 +13,43 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.goldheader {
+h1 {
     color: #F4B952;
 }
 
-.navcentrecolor {
+/* .navcentrecolor {
     background-color: #A1CFF2;
     text-align: center;
+} */
+
+/* *********MAIN PAGE NAV MENU FLEXBOX*********** */
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2A2B2D;
+    display: flex;
+    padding: 0;
 }
 
-footer {
+.nav-menu-list {
+    background-color: inherit;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+.nav-container h1 {
+    background-color: inherit;
+    box-sizing: content-box; 
+    font-size:  45px;
+}
+
+/* *********Copyright Data************* */
+
+.copyright-box p{
     text-align: center;
+    background-color: #2A2B2D;
 }
