@@ -1,11 +1,11 @@
 * {
-    background-color: #1A293E;
     scroll-behavior: smooth;
     
 }
 
 body {
     color: #A1CFF2;
+    background-color: #1A293E;
 }
 
 
@@ -46,6 +46,10 @@ h1 {
     box-sizing: content-box; 
     font-size:  45px;
 }
+
+/* ************Who Am I page Grid**************** */
+
+
 
 /* *********Copyright Data************* */
 
