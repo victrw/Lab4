@@ -11,9 +11,11 @@ body {
 
 h1 {
     color: #F4B952;
-    font-family: 'Montserrat', sans-serif;
 }
 
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* *********MAIN PAGE NAV MENU FLEXBOX*********** */
 
