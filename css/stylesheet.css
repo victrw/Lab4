@@ -112,6 +112,13 @@ h1 {
         column-gap: 20px;
     }
 
+    .course-info2 {
+            border-bottom-color: black;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 20px;
+    }
+
     .course-details {
         grid-column: 1\2;
         padding-bottom: 15px;
