@@ -17,6 +17,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-container h1 {
+    background-color: inherit;
+    box-sizing: content-box; 
+    font-size:  45px;
+}
+
 /* *********  MAIN PAGE NAV MENU FLEXBOX  *********** */
 
 .nav-container {
@@ -34,12 +40,6 @@ h1 {
     list-style-type: none;
     gap: 10px;
     justify-content: center;
-}
-
-.nav-container h1 {
-    background-color: inherit;
-    box-sizing: content-box; 
-    font-size:  45px;
 }
 
 /* ************  Who Am I page Grid  **************** */
@@ -99,7 +99,11 @@ h1 {
     display: grid;
 }
 
-@media (min-width: 600px) {
+.course-summary {
+    padding-bottom: 15px;
+}
+
+@media all and (min-width: 600px) {
     .nav-menu-list2 {
         flex-direction: row;
     }
@@ -110,10 +114,18 @@ h1 {
 
     .course-info {
         border-bottom-color: black;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
     }
 
     .course-details {
-        grid-template-columns: 1fr 3fr;
-        grid
+        grid-column: 1\2;
+        padding-bottom: 15px;
+    }
+
+    .course-summary {
+        grid-column: 2\3;
+        padding-top: 20px;
     }
 }
