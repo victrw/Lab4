@@ -17,7 +17,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* *********MAIN PAGE NAV MENU FLEXBOX*********** */
+/* *********  MAIN PAGE NAV MENU FLEXBOX  *********** */
 
 .nav-container {
     display: flex;
@@ -42,7 +42,7 @@ h1 {
     font-size:  45px;
 }
 
-/* ************Who Am I page Grid**************** */
+/* ************  Who Am I page Grid  **************** */
 
 .about-container {
     display: grid;
@@ -60,7 +60,7 @@ h1 {
 }
 
 
-/* *********Copyright Data************* */
+/* *********  Copyright Data  ************* */
 
 .copyright-box p{
     text-align: center;
@@ -68,4 +68,39 @@ h1 {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+
+/* ************ ONLY Course html  **************** */ 
+
+
+.nav-menu-list2 {
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+}
+
+
+.copyright-box2 p{
+    text-align: center;
+    background-color: #2A2B2D;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+}
+
+.course-info {
+    border-bottom: 2px black solid;
+}
+
+@media (min-width: 600px) {
+    .nav-menu-list2 {
+        flex-direction: row;
+    }
+
+    .copyright-box2 p {
+        bottom: 0;
+    }
 }
