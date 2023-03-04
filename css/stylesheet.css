@@ -8,7 +8,6 @@ body {
     background-color: #1A293E;
 }
 
-
 h1 {
     color: #F4B952;
 }
@@ -21,6 +20,14 @@ h1 {
     background-color: inherit;
     box-sizing: content-box; 
     font-size:  45px;
+}
+
+a {
+    color:aquamarine
+}
+
+a:visited {
+    color:palevioletred
 }
 
 /* *********  MAIN PAGE NAV MENU FLEXBOX  *********** */
@@ -49,7 +56,6 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
-
 
 .about-text {
     grid-column: 1/2;
@@ -80,6 +86,7 @@ h1 {
     flex-direction: column;
     list-style-type: none;
     gap: 10px;
+    padding:0%;
 }
 
 
@@ -87,7 +94,6 @@ h1 {
     text-align: center;
     background-color: #2A2B2D;
     position: absolute;
-    /* bottom: 0; */
     width: 100%;
 }
 
@@ -98,6 +104,11 @@ h1 {
 .course-summary {
     padding-bottom: 15px;
 }
+
+#section-no-bot-border {
+    border-bottom: none;
+}
+
 
 @media screen and (min-width: 600px) {
     
@@ -110,13 +121,6 @@ h1 {
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
-    }
-
-    .course-info2 {
-            border-bottom-color: black;
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            column-gap: 20px;
     }
 
     .course-details {
