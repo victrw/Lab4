@@ -28,14 +28,26 @@ do {
 
 // ------ step 3: write a loop to iterate through courselist array -------
 
-if (courselist.indexOf(userinput) = -1) {
+let find = -1
+
+for (let i = 0; i < courselist.length; i++) {
+    let object = courselist[i]
+    find = object["code"].search(userinput);
+    if (find >= 0) {
+        console.log(`Yes, I am taking the course: ${object.code} - ${object.name}`);
+        break;
+        }
+};
+
+// -------- step 4: push if code is new -----------
+
+if (find < 0) {
     courselist.push(
         {code: userinput,
         name: "null"}
     );
-    console.log("Course code has been successfully added to courselist.")
-    console.log(courselist)
-} else {
-        console.log(`Yes, I am taking the course: ${courselist["code"]} - ${courselist["name"]}`);
-    }
+    console.log("Course code has been successfully added to courselist.");
 
+    // ------ check if course has been added ------
+    // console.log(courselist);
+}
