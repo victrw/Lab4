@@ -87,3 +87,6 @@ function createCourseArray() {
   
     console.log(courselist);
   }
+
+  const courselist = createCourseArray();
+findCourse(courselist);
